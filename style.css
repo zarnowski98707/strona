@@ -1,0 +1,164 @@
+body{
+  background-color: #F0F2F7;
+  margin-left: 10%;
+}
+.logo{
+  color: #303744;
+
+  font-family: Mulish;
+  font-size: 38px;
+  font-weight: 900;
+  letter-spacing: 0;
+  line-height: 30px;
+  margin-right: 200px;
+}
+.text1{
+  padding: 15px;
+  color: #303744;
+ font-family: Gotham;
+ font-size: 18px;
+ font-weight: 500;
+ letter-spacing: 0;
+ text-align: center;
+ margin:10px;
+}
+.live-chat {
+  color: #FFFFFF;
+  font-family: "Proxima Nova";
+  font-size: 16px;
+  font-weight: 600;
+  letter-spacing: 0;
+  text-align: center;
+  height: auto;
+  margin:10px;
+ width: 100px;
+ padding:15px;
+ background-color: #FF762D;
+ background: linear-gradient(90deg, #FF912D 0%, #FF800A 100%);
+ border-radius: 4%;
+}
+.live-chat-now {
+  background-color: #FF762D;
+  padding:15px;
+  width:30%;
+  background-color: #FFFFFF;
+  background: linear-gradient(90deg, #FF912D 0%, #FF800A 100%);
+  color: #FFFFFF;
+  font-family: "Gotham";
+  font-size: 18px;
+  font-weight: 500;
+  letter-spacing: 0;
+  text-align: center;
+  border-radius: 4%;
+  margin:20px;
+  margin-left: 0;
+}
+.title
+{
+  color: #303744;
+  font-family: Gotham;
+  font-size: 64px;
+  font-weight: bold;
+  letter-spacing: 0;
+  line-height: 68px;
+
+}
+.text3
+{
+  opacity: 0.64;
+  color: #141619;
+  font-family: Gotham;
+  font-size: 26px;
+  font-weight: 300;
+  letter-spacing: 0;
+  line-height: 35px;
+
+  padding-right: 40%;
+}
+@keyframes example{
+  from {opacity:0;right:0px;}
+  to {opacity: 1;left:50%;}
+}
+.image
+{
+ background-color: black;
+   min-height: 500px;
+   min-width: 500px;
+   height: 100%;
+   width: 100%;
+
+   border-radius: 4%;
+   animation-name: example;
+   animation-duration: 5s;
+}
+header{
+  display:block;
+  min-height: 500px;
+  min-width: 100%;
+  margin: 100px;
+}
+.prostokat-szary {
+  height:200px;
+  background-color: #303744;
+  border-radius: 4%;
+}
+.prostokat-bialy {
+
+    height:200px;
+  background-color: #FFFFFF;
+  padding:20px;
+
+  border-radius: 4%;
+}
+.prostokat-szary-tekst1 {
+  padding:20px;
+  color: #FF800A;
+  font-family: "Gotham";
+  font-size: 56px;
+  font-weight: bold;
+  letter-spacing: 0;
+  line-height: 32px;
+
+}
+.prostokat-bialy-tekst1 {
+  padding:20px;
+  color: #303744;
+   font-family:"Gotham";
+   font-size: 48px;
+   font-weight: 300;
+   letter-spacing: 0;
+   line-height: 10.01px;
+}
+.prostokat-szary-tekst{
+  padding:20px;
+  color: #FFFFFF;
+  font-family: Gotham;
+  letter-spacing: 0;
+  line-height: 32px;
+}
+.text-prostokaty-bialy {
+  padding:20px;
+  opacity: 0.64;
+   color: #3A404D;
+   font-family: "Proxima Nova";
+   font-size: 16px;
+   font-weight: 300;
+   letter-spacing: 0;
+   line-height: 10.01px;
+}
+.prostokaty
+{
+
+}
+nav{
+ margin:40px;
+ width:100%;
+}
+ul{
+  list-style-type: none;
+}
+li{
+  display: block;
+
+    float:left;
+}
